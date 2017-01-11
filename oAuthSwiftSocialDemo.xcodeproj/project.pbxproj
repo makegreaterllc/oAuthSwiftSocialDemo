@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3991651E26805500EEBF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3991641E26805500EEBF24 /* AppDelegate.swift */; };
+		BE3991671E26805500EEBF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3991661E26805500EEBF24 /* ViewController.swift */; };
+		BE39916A1E26805500EEBF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3991681E26805500EEBF24 /* Main.storyboard */; };
+		BE39916D1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE39916B1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodeld */; };
+		BE39916F1E26805500EEBF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE39916E1E26805500EEBF24 /* Assets.xcassets */; };
+		BE3991721E26805500EEBF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3991701E26805500EEBF24 /* LaunchScreen.storyboard */; };
+		BE39917D1E26805500EEBF24 /* oAuthSwiftSocialDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE39917C1E26805500EEBF24 /* oAuthSwiftSocialDemoTests.swift */; };
+		BE3991881E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3991871E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE3991791E26805500EEBF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3991591E26805500EEBF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3991601E26805500EEBF24;
+			remoteInfo = oAuthSwiftSocialDemo;
+		};
+		BE3991841E26805500EEBF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3991591E26805500EEBF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3991601E26805500EEBF24;
+			remoteInfo = oAuthSwiftSocialDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE3991611E26805500EEBF24 /* oAuthSwiftSocialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oAuthSwiftSocialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3991641E26805500EEBF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE3991661E26805500EEBF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE3991691E26805500EEBF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE39916C1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oAuthSwiftSocialDemo.xcdatamodel; sourceTree = "<group>"; };
+		BE39916E1E26805500EEBF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3991711E26805500EEBF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE3991731E26805500EEBF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3991781E26805500EEBF24 /* oAuthSwiftSocialDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oAuthSwiftSocialDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE39917C1E26805500EEBF24 /* oAuthSwiftSocialDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oAuthSwiftSocialDemoTests.swift; sourceTree = "<group>"; };
+		BE39917E1E26805500EEBF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3991831E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oAuthSwiftSocialDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3991871E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oAuthSwiftSocialDemoUITests.swift; sourceTree = "<group>"; };
+		BE3991891E26805500EEBF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE39915E1E26805500EEBF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3991751E26805500EEBF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3991801E26805500EEBF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE3991581E26805500EEBF24 = {
+			isa = PBXGroup;
+			children = (
+				BE3991631E26805500EEBF24 /* oAuthSwiftSocialDemo */,
+				BE39917B1E26805500EEBF24 /* oAuthSwiftSocialDemoTests */,
+				BE3991861E26805500EEBF24 /* oAuthSwiftSocialDemoUITests */,
+				BE3991621E26805500EEBF24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3991621E26805500EEBF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3991611E26805500EEBF24 /* oAuthSwiftSocialDemo.app */,
+				BE3991781E26805500EEBF24 /* oAuthSwiftSocialDemoTests.xctest */,
+				BE3991831E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3991631E26805500EEBF24 /* oAuthSwiftSocialDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE3991641E26805500EEBF24 /* AppDelegate.swift */,
+				BE3991661E26805500EEBF24 /* ViewController.swift */,
+				BE3991681E26805500EEBF24 /* Main.storyboard */,
+				BE39916E1E26805500EEBF24 /* Assets.xcassets */,
+				BE3991701E26805500EEBF24 /* LaunchScreen.storyboard */,
+				BE3991731E26805500EEBF24 /* Info.plist */,
+				BE39916B1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodeld */,
+			);
+			path = oAuthSwiftSocialDemo;
+			sourceTree = "<group>";
+		};
+		BE39917B1E26805500EEBF24 /* oAuthSwiftSocialDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE39917C1E26805500EEBF24 /* oAuthSwiftSocialDemoTests.swift */,
+				BE39917E1E26805500EEBF24 /* Info.plist */,
+			);
+			path = oAuthSwiftSocialDemoTests;
+			sourceTree = "<group>";
+		};
+		BE3991861E26805500EEBF24 /* oAuthSwiftSocialDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3991871E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.swift */,
+				BE3991891E26805500EEBF24 /* Info.plist */,
+			);
+			path = oAuthSwiftSocialDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3991601E26805500EEBF24 /* oAuthSwiftSocialDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE39918C1E26805500EEBF24 /* Build configuration list for PBXNativeTarget "oAuthSwiftSocialDemo" */;
+			buildPhases = (
+				BE39915D1E26805500EEBF24 /* Sources */,
+				BE39915E1E26805500EEBF24 /* Frameworks */,
+				BE39915F1E26805500EEBF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oAuthSwiftSocialDemo;
+			productName = oAuthSwiftSocialDemo;
+			productReference = BE3991611E26805500EEBF24 /* oAuthSwiftSocialDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE3991771E26805500EEBF24 /* oAuthSwiftSocialDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE39918F1E26805500EEBF24 /* Build configuration list for PBXNativeTarget "oAuthSwiftSocialDemoTests" */;
+			buildPhases = (
+				BE3991741E26805500EEBF24 /* Sources */,
+				BE3991751E26805500EEBF24 /* Frameworks */,
+				BE3991761E26805500EEBF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE39917A1E26805500EEBF24 /* PBXTargetDependency */,
+			);
+			name = oAuthSwiftSocialDemoTests;
+			productName = oAuthSwiftSocialDemoTests;
+			productReference = BE3991781E26805500EEBF24 /* oAuthSwiftSocialDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE3991821E26805500EEBF24 /* oAuthSwiftSocialDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3991921E26805500EEBF24 /* Build configuration list for PBXNativeTarget "oAuthSwiftSocialDemoUITests" */;
+			buildPhases = (
+				BE39917F1E26805500EEBF24 /* Sources */,
+				BE3991801E26805500EEBF24 /* Frameworks */,
+				BE3991811E26805500EEBF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3991851E26805500EEBF24 /* PBXTargetDependency */,
+			);
+			name = oAuthSwiftSocialDemoUITests;
+			productName = oAuthSwiftSocialDemoUITests;
+			productReference = BE3991831E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3991591E26805500EEBF24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Make Greater LLC";
+				TargetAttributes = {
+					BE3991601E26805500EEBF24 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PX3JMXR49F;
+						ProvisioningStyle = Automatic;
+					};
+					BE3991771E26805500EEBF24 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PX3JMXR49F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE3991601E26805500EEBF24;
+					};
+					BE3991821E26805500EEBF24 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PX3JMXR49F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE3991601E26805500EEBF24;
+					};
+				};
+			};
+			buildConfigurationList = BE39915C1E26805500EEBF24 /* Build configuration list for PBXProject "oAuthSwiftSocialDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3991581E26805500EEBF24;
+			productRefGroup = BE3991621E26805500EEBF24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3991601E26805500EEBF24 /* oAuthSwiftSocialDemo */,
+				BE3991771E26805500EEBF24 /* oAuthSwiftSocialDemoTests */,
+				BE3991821E26805500EEBF24 /* oAuthSwiftSocialDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE39915F1E26805500EEBF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3991721E26805500EEBF24 /* LaunchScreen.storyboard in Resources */,
+				BE39916F1E26805500EEBF24 /* Assets.xcassets in Resources */,
+				BE39916A1E26805500EEBF24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3991761E26805500EEBF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3991811E26805500EEBF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE39915D1E26805500EEBF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3991671E26805500EEBF24 /* ViewController.swift in Sources */,
+				BE39916D1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodeld in Sources */,
+				BE3991651E26805500EEBF24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3991741E26805500EEBF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE39917D1E26805500EEBF24 /* oAuthSwiftSocialDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE39917F1E26805500EEBF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3991881E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE39917A1E26805500EEBF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3991601E26805500EEBF24 /* oAuthSwiftSocialDemo */;
+			targetProxy = BE3991791E26805500EEBF24 /* PBXContainerItemProxy */;
+		};
+		BE3991851E26805500EEBF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3991601E26805500EEBF24 /* oAuthSwiftSocialDemo */;
+			targetProxy = BE3991841E26805500EEBF24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE3991681E26805500EEBF24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3991691E26805500EEBF24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE3991701E26805500EEBF24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3991711E26805500EEBF24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE39918A1E26805500EEBF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE39918B1E26805500EEBF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE39918D1E26805500EEBF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PX3JMXR49F;
+				INFOPLIST_FILE = oAuthSwiftSocialDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makegreaterllc.oAuthSwiftSocialDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE39918E1E26805500EEBF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PX3JMXR49F;
+				INFOPLIST_FILE = oAuthSwiftSocialDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makegreaterllc.oAuthSwiftSocialDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE3991901E26805500EEBF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PX3JMXR49F;
+				INFOPLIST_FILE = oAuthSwiftSocialDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makegreaterllc.oAuthSwiftSocialDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oAuthSwiftSocialDemo.app/oAuthSwiftSocialDemo";
+			};
+			name = Debug;
+		};
+		BE3991911E26805500EEBF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PX3JMXR49F;
+				INFOPLIST_FILE = oAuthSwiftSocialDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makegreaterllc.oAuthSwiftSocialDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oAuthSwiftSocialDemo.app/oAuthSwiftSocialDemo";
+			};
+			name = Release;
+		};
+		BE3991931E26805500EEBF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PX3JMXR49F;
+				INFOPLIST_FILE = oAuthSwiftSocialDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makegreaterllc.oAuthSwiftSocialDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = oAuthSwiftSocialDemo;
+			};
+			name = Debug;
+		};
+		BE3991941E26805500EEBF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PX3JMXR49F;
+				INFOPLIST_FILE = oAuthSwiftSocialDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makegreaterllc.oAuthSwiftSocialDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = oAuthSwiftSocialDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE39915C1E26805500EEBF24 /* Build configuration list for PBXProject "oAuthSwiftSocialDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE39918A1E26805500EEBF24 /* Debug */,
+				BE39918B1E26805500EEBF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE39918C1E26805500EEBF24 /* Build configuration list for PBXNativeTarget "oAuthSwiftSocialDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE39918D1E26805500EEBF24 /* Debug */,
+				BE39918E1E26805500EEBF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE39918F1E26805500EEBF24 /* Build configuration list for PBXNativeTarget "oAuthSwiftSocialDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3991901E26805500EEBF24 /* Debug */,
+				BE3991911E26805500EEBF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE3991921E26805500EEBF24 /* Build configuration list for PBXNativeTarget "oAuthSwiftSocialDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3991931E26805500EEBF24 /* Debug */,
+				BE3991941E26805500EEBF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE39916B1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE39916C1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodel */,
+			);
+			currentVersion = BE39916C1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodel */;
+			path = oAuthSwiftSocialDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE3991591E26805500EEBF24 /* Project object */;
+}

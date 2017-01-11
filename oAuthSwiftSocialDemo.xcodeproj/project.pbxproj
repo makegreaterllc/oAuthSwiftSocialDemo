@@ -10,13 +10,13 @@
 		57730C93FE139E1A0397D182 /* Pods_oAuthSwiftSocialDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC8F746AFE4F554A1A5BD99 /* Pods_oAuthSwiftSocialDemoUITests.framework */; };
 		766B1A586D8AE9A3BD17F882 /* Pods_oAuthSwiftSocialDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55899E115689BA07CE2D15AB /* Pods_oAuthSwiftSocialDemo.framework */; };
 		BE3991651E26805500EEBF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3991641E26805500EEBF24 /* AppDelegate.swift */; };
-		BE3991671E26805500EEBF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3991661E26805500EEBF24 /* ViewController.swift */; };
 		BE39916A1E26805500EEBF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3991681E26805500EEBF24 /* Main.storyboard */; };
 		BE39916D1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE39916B1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodeld */; };
 		BE39916F1E26805500EEBF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE39916E1E26805500EEBF24 /* Assets.xcassets */; };
 		BE3991721E26805500EEBF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3991701E26805500EEBF24 /* LaunchScreen.storyboard */; };
 		BE39917D1E26805500EEBF24 /* oAuthSwiftSocialDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE39917C1E26805500EEBF24 /* oAuthSwiftSocialDemoTests.swift */; };
 		BE3991881E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3991871E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.swift */; };
+		BE3991981E268D1F00EEBF24 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3991971E268D1F00EEBF24 /* TestViewController.swift */; };
 		F85E531F7608E24704704510 /* Pods_oAuthSwiftSocialDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BECA973B2A6E14DEB1C186 /* Pods_oAuthSwiftSocialDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,6 @@
 		BAC8F746AFE4F554A1A5BD99 /* Pods_oAuthSwiftSocialDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oAuthSwiftSocialDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3991611E26805500EEBF24 /* oAuthSwiftSocialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oAuthSwiftSocialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3991641E26805500EEBF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE3991661E26805500EEBF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE3991691E26805500EEBF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE39916C1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oAuthSwiftSocialDemo.xcdatamodel; sourceTree = "<group>"; };
 		BE39916E1E26805500EEBF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		BE3991831E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oAuthSwiftSocialDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3991871E26805500EEBF24 /* oAuthSwiftSocialDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oAuthSwiftSocialDemoUITests.swift; sourceTree = "<group>"; };
 		BE3991891E26805500EEBF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3991971E268D1F00EEBF24 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		CE39808605F1069992AA8412 /* Pods-oAuthSwiftSocialDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oAuthSwiftSocialDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-oAuthSwiftSocialDemoUITests/Pods-oAuthSwiftSocialDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D63B654B277BC42DC8C6003A /* Pods-oAuthSwiftSocialDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oAuthSwiftSocialDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oAuthSwiftSocialDemo/Pods-oAuthSwiftSocialDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,8 +139,8 @@
 		BE3991631E26805500EEBF24 /* oAuthSwiftSocialDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BE3991971E268D1F00EEBF24 /* TestViewController.swift */,
 				BE3991641E26805500EEBF24 /* AppDelegate.swift */,
-				BE3991661E26805500EEBF24 /* ViewController.swift */,
 				BE3991681E26805500EEBF24 /* Main.storyboard */,
 				BE39916E1E26805500EEBF24 /* Assets.xcassets */,
 				BE3991701E26805500EEBF24 /* LaunchScreen.storyboard */,
@@ -439,9 +439,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3991671E26805500EEBF24 /* ViewController.swift in Sources */,
 				BE39916D1E26805500EEBF24 /* oAuthSwiftSocialDemo.xcdatamodeld in Sources */,
 				BE3991651E26805500EEBF24 /* AppDelegate.swift in Sources */,
+				BE3991981E268D1F00EEBF24 /* TestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

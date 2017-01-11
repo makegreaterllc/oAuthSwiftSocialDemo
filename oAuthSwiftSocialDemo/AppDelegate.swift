@@ -8,12 +8,20 @@
 
 import UIKit
 import CoreData
+import OAuthSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        // this is the function call that handles the URL Callback if "test" is sent (it is from the withCallbackURL: URL(string: "oAuthSwiftSocialDemo://test") reuest in TestViewController
+        if (url.host == "test") {
+            OAuthSwift.handle(url: url)
+        }
+        return true
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
